@@ -1,0 +1,4 @@
+body { background: #050505; color: white; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+.card { background: #111; padding: 50px; border-radius: 20px; border: 1px solid #222; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+input { background: #1a1a1a; border: 1px solid #333; color: white; padding: 15px; width: 300px; border-radius: 10px; }
+button { background: #3b82f6; color: white; border: none; padding: 15px 25px; border-radius: 10px; font-weight: bold; cursor: pointer; }
