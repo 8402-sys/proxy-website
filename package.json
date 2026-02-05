@@ -1,0 +1,10 @@
+{
+  "name": "v5-pro-ultimate",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.21.0",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "@tomphttp/bare-server-node": "^2.0.1"
+  }
+}
