@@ -1,0 +1,13 @@
+/ (Root)
+├── package.json         (1. Dependencies)
+├── server.js            (2. Advanced Backend)
+├── middleware.js        (3. The Stealth Shield)
+└── public/
+    ├── index.html       (4. Main Search UI)
+    ├── settings.html    (5. Stealth & Themes UI)
+    ├── 404.html         (6. Error Handler)
+    ├── style.css        (7. Global Design)
+    └── uv/
+        ├── uv.config.js (8. Rewriter Engine)
+        ├── uv.sw.js     (9. Service Worker)
+        └── loader.js    (10. The "Blank" Launcher)
