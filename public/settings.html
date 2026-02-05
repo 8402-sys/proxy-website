@@ -1,0 +1,15 @@
+<div class="card">
+    <h2>Tab Cloaking</h2>
+    <button onclick="setCloak('classroom')">Google Classroom</button>
+    <button onclick="setCloak('wiki')">Wikipedia</button>
+    <script>
+        function setCloak(type) {
+            const presets = {
+                classroom: { t: "Google Classroom", i: "https://ssl.gstatic.com/classroom/favicon.png" },
+                wiki: { t: "Wikipedia", i: "https://en.wikipedia.org/favicon.ico" }
+            };
+            localStorage.setItem('cloak', JSON.stringify(presets[type]));
+            location.href = 'index.html';
+        }
+    </script>
+</div>
